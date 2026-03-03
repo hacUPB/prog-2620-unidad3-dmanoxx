@@ -4,6 +4,7 @@
 promedio= float(input("Ingresa tu promedio: "))
 nivel_econ= float(input("Ingresa tu nivel socioeconmico: "))
 
-promedio_min = 9.0
-resultado = promedio >= promedio_min
-print (resultado)
+if promedio >= 9.0 or (nivel_econ == 1 and promedio >= 8.0):
+    print("Felicidades, has obtenido una beca del 100%")
+else:
+    print("Lo siento, no has calificado para una beca")

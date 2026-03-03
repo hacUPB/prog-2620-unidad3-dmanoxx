@@ -13,3 +13,7 @@
 
 ### Ejercicio 3
 
+
+### Ejercicio 4
+
+* Lo que más se me dificultó fue organizar el orden correcto de la logica especialmente calcular primero el precio final antes de evaluar la condicion de compra. Lo resolvi separando el problema en pasos primero el calculo luego la validacion logica.
